@@ -1,0 +1,40 @@
+mherbst
+=======
+mao's herbstluftwm dots
+
+dependencies
+------------
+required:
+- herbstluftwm
+- polybar
+- dunst
+- kitty
+
+optional:
+- hsetroot
+- neofetch
+- bottom
+- ranger
+
+install
+-------
+1. clone or extract to "$XDG_CONFIG_HOME"/herbstluftwm
+
+     git clone https://github.com/cwillsey06/mherbst \
+     "$XDG_CONFIG_HOME"/herbstluftwm
+
+2. cd into the repository and run ./link.sh
+
+   if it complains about existing path(s),
+   feel free to specify the -f (force) flag
+   but do be careful; overwrite with care.
+
+3. start herbstluftwm, however you do that.
+4. :3c
+
+license
+-------
+this project is licensed under WTFPL.
+
+you are free to DO WHAT THE FUCK YOU WANT TO
+
