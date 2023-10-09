@@ -20,16 +20,19 @@ install
 -------
 1. clone or extract to "$XDG_CONFIG_HOME"/herbstluftwm
 
-     git clone https://github.com/cwillsey06/mherbst \
-     "$XDG_CONFIG_HOME"/herbstluftwm
+   git clone https://github.com/cwillsey06/mherbst \
+   "$XDG_CONFIG_HOME"/herbstluftwm
 
-2. cd into the repository and run ./link.sh
+2. cd into the repository and run
+
+   ln -s "$PWD"/app/* "$XDG_CONFIG_HOME"
 
    if it complains about existing path(s),
    feel free to specify the -f (force) flag
    but do be careful; overwrite with care.
 
 3. start herbstluftwm, however you do that.
+
 4. :3c
 
 license

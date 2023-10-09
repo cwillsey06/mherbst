@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# mherbst/bin/theme
+# 2023.10.09 @ 08:52
+
+hc attr theme.tiling.reset 1
+hc attr theme.floating.reset 1
+
+# source active theme file
+source "$HLWM_CONFIG_DIR"/theme/hlwm/active    2&> /dev/null
+source "$HLWM_CONFIG_DIR"/theme/polybar/active 2&> /dev/null
+
